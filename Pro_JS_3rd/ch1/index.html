@@ -7,11 +7,11 @@
         
         
         
-        <link rel="shortcut icon" href="/img/favicon.ico">
-        <title>Notes</title>
-        <link href="/css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="/css/font-awesome.min.css" rel="stylesheet">
-        <link href="/css/base.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>第 1 章 JavaScript 简介 - Notes</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -19,8 +19,8 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <script src="/js/jquery-1.10.2.min.js" defer></script>
-        <script src="/js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
@@ -39,7 +39,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/.">Notes</a>
+                    <a class="navbar-brand" href="../..">Notes</a>
                 </div>
 
                 <!-- Expanded navigation -->
@@ -47,10 +47,10 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li >
-                                <a href="/.">Home</a>
+                                <a href="../..">Home</a>
                             </li>
                             <li >
-                                <a href="/about/">About</a>
+                                <a href="../../about/">About</a>
                             </li>
                         </ul>
 
@@ -66,15 +66,56 @@
         </div>
 
         <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#1-javascript">第 1 章 JavaScript 简介</a></li>
+            <li><a href="#javascript">JavaScript 实现</a></li>
+            <li><a href="#_1">小结</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
 
-    <div class="row-fluid">
-      <div id="main-content" class="span12">
-        <h1 id="404-page-not-found" style="text-align: center">404</h1>
-        <p style="text-align: center"><strong>Page not found</strong></p>
-      </div>
-    </div>
-
-
+<h1 id="1-javascript">第 1 章 JavaScript 简介</h1>
+<h3 id="javascript">JavaScript 实现</h3>
+<ul>
+<li>ECMAScript</li>
+<li>DOM</li>
+<li>BOM</li>
+</ul>
+<h4 id="ecmascript">ECMAScript</h4>
+<ul>
+<li>是对实现了该标准规定的各个方面内容的语言的描述</li>
+</ul>
+<h4 id="dom">DOM</h4>
+<blockquote>
+<p>The Document Object Model (DOM) is a programming API for HTML and XML documents. It defines the logical structure of documents and the way a document is accessed and manipulated.<a href="https://www.w3.org/TR/WD-DOM/introduction.html">DOM Level 1 文档</a></p>
+</blockquote>
+<ul>
+<li>针对 XML 但经过扩展用于 HTML 的 API</li>
+<li>把整个页面映射成一个多层节点结构，使开发者可以自如的删除、添加、替换或修改任何节点</li>
+</ul>
+<h4 id="bom">BOM</h4>
+<ul>
+<li>处理浏览器窗口和框架</li>
+<li>针对浏览器的 JavaScript 扩展<ul>
+<li>弹出新浏览器窗口的功能</li>
+<li>移动、缩放和关闭浏览器窗口的功能</li>
+<li>提供浏览器详细信息的 navigator 对象</li>
+<li>提供浏览器所加载页面的详细信息的 location 对象</li>
+<li>提供用户显示器分辨率详细信息的 screen 对象</li>
+<li>对 cookies 的支持</li>
+<li>像 XMLHttpRequest 和 IE 的 ActiveXObject 这样的自定义对象</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="_1">小结</h3>
+<p>JavaScript 是一种专为与网页交互而设计的脚本语言，由三个部分组成</p>
+<ul>
+<li>ECMAScript，由 ECMA-262 定义，提供核心语言功能</li>
+<li>文档对象模型（DOM），提供访问和操作网页内容的方法和接口</li>
+<li>浏览器对象模型（BOM），提供与浏览器交互的方法和接口</li>
+</ul></div>
         </div>
 
         <footer class="col-md-12">
@@ -82,11 +123,11 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = "/",
+            var base_url = "../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="/js/base.js" defer></script>
-        <script src="/search/main.js" defer></script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">
